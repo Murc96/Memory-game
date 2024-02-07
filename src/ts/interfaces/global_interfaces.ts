@@ -4,7 +4,7 @@ export interface Pokemon {
     id: number;
 }
 
-export interface PokemonData {
+export interface PokemonDataType {
     id: number;
     name: string;
     url: string;

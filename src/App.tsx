@@ -1,8 +1,9 @@
-import GameDisplay from './components/GameDisplay';
-import './App.css';
+import GameDisplay from "./components/GameDisplay";
+import "@picocss/pico";
+import "./App.css";
 
 function App() {
-  return <GameDisplay/>
+  return <GameDisplay />;
 }
 
-export default App
+export default App;
