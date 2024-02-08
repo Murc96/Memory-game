@@ -36,9 +36,6 @@ export default function GameDisplay() {
                     }
                   >
                     <img className="cardImg" src={pokemon.image} />
-                    <div className="nameContainer">
-                      <h4>{pokemon.name}</h4>
-                    </div>
                   </div>
                 ))}
               </div>
